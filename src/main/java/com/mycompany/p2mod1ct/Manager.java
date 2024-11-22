@@ -13,9 +13,16 @@ public class Manager extends Employee {
         managerDepartment = newDepartment;
     }
     
+    public String getDeparment() {
+        return managerDepartment;
+    }
     @Override
-    public void printStatus() {
+    public void employeeSummary() {
+
+        super.employeeSummary();
         System.out.println("Department: " + managerDepartment);
+
+
     }
     
     private String managerDepartment;
