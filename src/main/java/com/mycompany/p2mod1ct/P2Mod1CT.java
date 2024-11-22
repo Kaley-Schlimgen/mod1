@@ -22,7 +22,6 @@ public class P2Mod1CT {
         managerItem.setDepartment("Sales");
         
         managerItem.printStatus();
-        //System.out.println("Hello World!");
-        //this is a test
+        //testing that it's updating
     }
 }
